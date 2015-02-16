@@ -1,0 +1,3 @@
+DiabetesHelperAndroid.MainActivity;diabeteshelperandroid.MainActivity
+DiabetesHelperAndroid.MealActivity;diabeteshelperandroid.MealActivity
+DiabetesHelperAndroid.MealEatenActivity;diabeteshelperandroid.MealEatenActivity

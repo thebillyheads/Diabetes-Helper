@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiabetesHelper.Core.Android", "DiabetesHelper.Core\DiabetesHelper.Core.Android.csproj", "{92E92C6B-CACF-4CE8-9EBA-97EFA038824E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diabetes Helper", "DiabetesHelperAndroid\Diabetes Helper.csproj", "{EF4461D7-863B-4647-88EE-14A94220636F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92E92C6B-CACF-4CE8-9EBA-97EFA038824E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92E92C6B-CACF-4CE8-9EBA-97EFA038824E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92E92C6B-CACF-4CE8-9EBA-97EFA038824E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92E92C6B-CACF-4CE8-9EBA-97EFA038824E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF4461D7-863B-4647-88EE-14A94220636F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF4461D7-863B-4647-88EE-14A94220636F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF4461D7-863B-4647-88EE-14A94220636F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EF4461D7-863B-4647-88EE-14A94220636F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF4461D7-863B-4647-88EE-14A94220636F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF4461D7-863B-4647-88EE-14A94220636F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

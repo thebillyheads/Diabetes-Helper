@@ -1,0 +1,24 @@
+﻿<Properties StartupItem="DiabetesHelperAndroid\Diabetes Helper.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="Android.MonoForAndroid_API_12" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="c:\Users\tist\Documents\Visual Studio 2012\Projects\DiabetesHelper\Android_Starter\DiabetesHelper.Core\Business\DiabetesHelperManager.cs">
+    <Files>
+      <File FileName="c:\Users\tist\Documents\Visual Studio 2012\Projects\DiabetesHelper\Android_Starter\DiabetesHelper.Core\Business\DiabetesHelperManager.cs" Line="33" Column="33" />
+      <File FileName="DiabetesHelper.Core\DataAccess\IDiabetesHelperRepositoryAdo.cs" Line="1" Column="1" />
+      <File FileName="DiabetesHelper.Core\DataAccess\DiabetesHelperRepositoryAdo.cs" Line="1" Column="1" />
+      <File FileName="DiabetesHelper.Core\Data\IDiabetesHelperDatabaseAdo.cs" Line="1" Column="1" />
+      <File FileName="DiabetesHelper.Core\Data\DiabetesHelperDatabaseAdo.cs" Line="1" Column="1" />
+      <File FileName="DiabetesHelperAndroid\MealActivity.cs" Line="1" Column="1" />
+      <File FileName="DiabetesHelper.Core\DataAccess\MealEaten.cs" Line="1" Column="1" />
+      <File FileName="DiabetesHelper.Core\SQLite.cs" Line="1" Column="1" />
+      <File FileName="DiabetesHelperAndroid\MainActivity.cs" Line="1" Column="1" />
+      <File FileName="DiabetesHelper.Core\DataAccess\Meal.cs" Line="1" Column="1" />
+      <File FileName="DiabetesHelperAndroid\Resources\Resource.Designer.cs" Line="1" Column="1" />
+      <File FileName="DiabetesHelperAndroid\packages.config" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Diabetes_220Helper MonoForAntroid.PreferredDevice="Nexus 5" MonoForAntroid.PreferredTheme="Theme.DeviceDefault" />
+</Properties>

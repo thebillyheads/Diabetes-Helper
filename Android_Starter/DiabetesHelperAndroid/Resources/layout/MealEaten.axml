@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout3">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout1">
+            <Button
+                android:text="Done"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonDone" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout2">
+                <TableLayout
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tableLayout1">
+                    <TableRow
+                        android:id="@+id/tableRow1">
+                        <TextView
+                            android:text="Meal:"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:id="@+id/textView10"
+                            android:layout_column="0" />
+                        <Spinner
+                            android:id="@+id/spinnerMeal"
+                            android:layout_width="0dp"
+                            android:layout_weight="1" />
+                        <Button
+                            android:text="+"
+                            android:id="@+id/buttonAddMeal"
+                            android:layout_width="0dp"
+                            android:layout_marginLeft="0.0dp"
+                            android:layout_marginRight="0.0dp"
+                            android:layout_weight="0.25" />
+                    </TableRow>
+                    <TableRow
+                        android:minWidth="25px"
+                        android:minHeight="25px"
+                        android:id="@+id/tableRow2">
+                        <TextView
+                            android:text="Time:"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:id="@+id/textView11" />
+                        <DatePicker
+                            android:id="@+id/datePickerTime"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:spinnersShown="true"
+                            android:calendarViewShown="false" />
+                        <TimePicker
+                            android:id="@+id/timePickerTime"
+                            android:layout_width="0dp"
+                            android:layout_weight="1" />
+                    </TableRow>
+                    <TableRow
+                        android:minWidth="25px"
+                        android:minHeight="25px"
+                        android:id="@+id/tableRow4">
+                        <TextView
+                            android:text="BSL Before:"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:id="@+id/textView13" />
+                        <EditText
+                            android:inputType="numberDecimal"
+                            android:id="@+id/editTextBslBefore"
+                            android:layout_width="0dp"
+                            android:layout_weight="1" />
+                    </TableRow>
+                    <TableRow
+                        android:minWidth="25px"
+                        android:minHeight="25px"
+                        android:id="@+id/tableRow3">
+                        <TextView
+                            android:text="Insulin Dose:"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:id="@+id/textView12" />
+                        <EditText
+                            android:inputType="numberDecimal"
+                            android:id="@+id/editTextInsulinDose"
+                            android:layout_width="0dp"
+                            android:layout_weight="1" />
+                    </TableRow>
+                    <TableRow
+                        android:minWidth="25px"
+                        android:minHeight="25px"
+                        android:id="@+id/tableRow5">
+                        <TextView
+                            android:text="BSL After:"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:id="@+id/textView14" />
+                        <EditText
+                            android:inputType="numberDecimal"
+                            android:id="@+id/editTextBslAfter"
+                            android:layout_width="0dp"
+                            android:layout_weight="1" />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
